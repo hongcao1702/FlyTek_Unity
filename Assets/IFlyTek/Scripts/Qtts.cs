@@ -16,8 +16,8 @@ namespace Second {
         private string textPath;
 
         public Qtts() {
-            string temp = "亲爱的用户，您好，这是一个语音合成示例，感谢您对科大讯飞语音技术的支持！科大讯飞是亚太地区最大的语音上市公司，股票代码：002230,test"; ///合成文本
-            //string temp = "What's your name,How old are you"; ///合成文本
+            //string temp = "亲爱的用户，您好，这是一个语音合成示例，感谢您对科大讯飞语音技术的支持！科大讯飞是亚太地区最大的语音上市公司，股票代码：002230,test"; ///合成文本
+            string temp = "What's your name,How old are you"; ///合成文本
 
             text = Encoding.GetEncoding("utf-8").GetBytes(ConvertEncoding(temp));
 #if UNITY_ANDROID
